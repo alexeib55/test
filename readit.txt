@@ -1,1 +1,17 @@
-This is a sample file
+Instructions
+1. Install docker toolbox (because Windows Home does not support proper virtualization)
+  https://www.docker.com/products/docker-toolbox
+2. Install theano docker edition
+  docker run -it kaixhin/theano
+3. This runs python automatically
+4. Install keras
+  pip install keras
+5. Run keras under python
+  python
+in python
+  from keras.models import Sequential
+6. Exit python
+7. Got to .keras and find .keras.json
+   Open this file and replace tensorflow by theano
+8. Run python again
+9. Does it run with interactive python notebooks?
